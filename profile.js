@@ -1,11 +1,11 @@
 
 function onclickthisColor(evt) {
 	evt.preventDefault();
-    alert("My Favorite Color is Black");	
+    alert("My Favorite Color is Purple");	
 }
 function onclickthisPlace(evt) {
 	evt.preventDefault();
-    alert("My Favorite Color is Black");	
+    alert("My Favorite Place is Antarctica");	
 }
 function onclickthisRitual(evt) {
 	evt.preventDefault();
