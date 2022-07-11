@@ -6,9 +6,22 @@ body {
   margin: 2rem auto;
   font-family: "Open Sans", sans-serif;
 }
-
+li {
+	font-family: "Open Sans", sans-serif;
+	font-size: small;
+}
 nav {
 	border-bottom: 2px solid orange;
+}
+
+.button {
+	background-color: yellow; /* Green */
+	border: none;
+	padding: 15px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
 }
 
 ol {
@@ -49,3 +62,30 @@ img {
 {
 	display: inline;	
 }
+.spacing 
+{
+	padding : 0px;
+	width : 500px;
+	margin:0px;
+	border:0px;
+}
+.colorGrey
+{ 
+color : gray
+}
+.titleStyles
+{
+color : rgb(184, 130, 130);
+display:flex;
+}
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	
+  }
+  
+.flex-container > div{
+	border: 10px;
+	border-color:black;
+}
+
